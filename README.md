@@ -11,9 +11,7 @@ This repository documents a step-by-step Windows troubleshooting exercise, inclu
 ### 1. Check System Specifications
 
 **Steps:**
-1. Press `Windows + R`
-2. Type `msinfo32` and press Enter.
-3. Note the following information:  
+1. Note the following information:  
    - OS Name  
    - Version  
    - System Manufacturer  
@@ -31,23 +29,20 @@ This repository documents a step-by-step Windows troubleshooting exercise, inclu
 ### 2. Check Network Status
 
 **Option A: Using Settings**
-1. Go to `Start → Settings → Network & Internet`
-2. Check network status (Connected / Not connected).  
+1. Check network status (Connected / Not connected).  
 
 **Screenshot:**  
 [Network Status]<img width="1434" height="779" alt="Network Status (Connected or Disconnected)" src="https://github.com/user-attachments/assets/1b437a67-1a09-4e29-be5a-ce921c47c7c0" />
 
 
-**Option B: Using Command Prompt**
-1. Press `Windows + R` → type `cmd` → press Enter  
-2. Type `ipconfig` and press Enter  
-3. Note the following information:  
+**Option B: Using Command Prompt**  
+1. Note the following information:  
    - IPv4 Address  
    - Subnet Mask  
    - Default Gateway  
 
-**Screenshot:**  
-![Command Prompt Network Info](Using Command Prompt.png)
+**Screenshot:**
+[Command Prompt Network Info](Using Command Prompt.png)
 
 ---
 
@@ -56,11 +51,10 @@ This repository documents a step-by-step Windows troubleshooting exercise, inclu
 **Steps to Simulate Internet Disconnection:**
 - Turn off Wi-Fi manually **or**  
 - Disable the network adapter:  
-  1. Press `Windows + R` → type `ncpa.cpl` → press Enter  
   2. Right-click your Wi-Fi adapter → Click `Disable`  
 
-**Screenshot:**  
-![Internet Disconnected](Internet Disconnection Before.png)
+**Screenshot:** 
+[Internet Disconnected](<img width="1120" height="592" alt="Check Physical Adapter Status" src="https://github.com/user-attachments/assets/4ecff3f6-a96a-46bb-840d-fa6dbd1ef2c8" />
 
 ---
 
