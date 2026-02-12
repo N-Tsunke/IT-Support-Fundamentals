@@ -29,12 +29,11 @@ The first step was to verify the system specifications to confirm the operating 
 
 ![Open System Information](images/open-system-information.png)
 
-
 *Figure 1: System Information window displaying operating system version, processor, RAM, and system type.*
 
 ---
 
-## 2. Simulate a Basic Issue (Internet Disconnection)
+## 2. Internet Disconnection Before
 
 To simulate a troubleshooting scenario, the internet connection was intentionally disconnected.
 
@@ -74,35 +73,71 @@ This step ensures the issue is not caused by a disabled or disconnected network 
 
 ## 4. Using Command Prompt
 
-Command Prompt was opened as Administrator to perform advanced troubleshooting.
+The Command Prompt was used to perform network troubleshooting commands to restore internet connectivity.
 
-### Commands Used:
+### Action Performed:
 
-bash
-ipconfig /release
-ipconfig /renew
-ipconfig /flushdns
+- Opened Command Prompt as Administrator
+- Executed `ipconfig /release` to drop the current IP address
+- Executed `ipconfig /renew` to request a new IP address from the router
+- Executed `ipconfig /flushdns` to clear the DNS cache
+
+These steps help resolve IP conflicts and DNS issues that can prevent internet access.
+
+### Screenshot
+
+![Using Command Prompt](images/using-command-prompt.png)
+
+*Figure 4: Command Prompt displaying execution of ipconfig commands to troubleshoot network connectivity.*
 
 ---
 
-## Issue Resolution
+## 5. Run Network Troubleshooter
+
+After using Command Prompt tools, the built-in Windows Network Troubleshooter was executed.
+
+### Action Performed:
+
+- Opened Network & Internet Settings
+- Selected "Network Troubleshooter"
+- Allowed Windows to detect and fix network problems automatically
+
+This tool diagnoses and resolves common network issues.
+
+### Screenshot
+
+![Run Network Troubleshooter](images/run-network-troubleshooter.png)
+
+*Figure 5: Windows Network Troubleshooter detecting and resolving connectivity issues.*
 
 ---
+
+## Conclusion
+
+The internet connectivity issue was successfully diagnosed and resolved using a structured troubleshooting approach.
+
+Steps followed:
+
+1. Verified system specifications  
+2. Confirmed internet disconnection  
+3. Checked physical network adapter status  
+4. Used Command Prompt networking tools  
+5. Ran Windows Network Troubleshooter  
 
 ## Key Learning Outcomes
 
 - Learned how to check system specifications  
 - Verified network connectivity using command-line tools  
 - Simulated a network issue  
-- Applied troubleshooting step
+- Applied troubleshooting steps to restore connectivity  
 
 ---
 
-## Tools Used
+## Author
 
-- Command Prompt (ipconfig, ping, flushdns)  
-- Windows Network Settings  
-- GitHub (Documentation and reporting)
+Nthabiseng Tsunke  
+IT Support Learnership – CAPACITI  
+Technical Support Fundamentals
 
 
 
