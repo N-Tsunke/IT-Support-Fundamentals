@@ -27,7 +27,7 @@ The first step was to verify the system specifications to confirm the operating 
 
 ### Screenshot
 
-![Open System Information](<img width="1487" height="830" alt="Open System Information" src="https://github.com/user-attachments/assets/01dad27f-b2fd-436e-a33b-667228c68d72" />
+[Open System Information](<img width="1487" height="830" alt="Open System Information" src="https://github.com/user-attachments/assets/01dad27f-b2fd-436e-a33b-667228c68d72" />
 
 
 *Figure 1: System Information window displaying operating system version, processor, RAM, and system type.*
@@ -46,7 +46,7 @@ To simulate a troubleshooting scenario, the internet connection was intentionall
 
 ### Screenshot
 
-![Internet Disconnection Before](<img width="1127" height="627" alt="Internet Disconnection Before" src="https://github.com/user-attachments/assets/d1f389a1-fb68-4fae-9c95-43353554d91b" />
+[Internet Disconnection Before]<img width="1127" height="627" alt="Internet Disconnection Before" src="https://github.com/user-attachments/assets/d1f389a1-fb68-4fae-9c95-43353554d91b" />
 
 
 *Figure 2: Network status showing “No Internet Access” before troubleshooting.*
