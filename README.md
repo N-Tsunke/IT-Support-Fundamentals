@@ -1,119 +1,95 @@
 # Technical Support Fundamentals – Windows Troubleshooting Report
 
-## Overview
+# Windows Troubleshooting Practical Task
 
-This project demonstrates a Windows system check and troubleshooting process performed to identify and resolve an internet connectivity issue.
-
-The objectives were to:
-
-- Verify system specifications
-- Identify network connectivity problems
-- Check physical network adapter status
-- Use Command Prompt troubleshooting tools
-- Run the built-in Windows Network Troubleshooter
+This repository documents a step-by-step Windows troubleshooting exercise, including system checks, simulating an internet disconnection, and performing troubleshooting steps to restore connectivity.  
 
 ---
 
-## 1. Open System Information
+## PART 1: System Check
 
-The first step was to verify the system specifications to confirm the operating system version and hardware details.
+### 1. Check System Specifications
 
-### Details Verified:
+**Steps:**
+1. Press `Windows + R`
+2. Type `msinfo32` and press Enter.
+3. Note the following information:  
+   - OS Name  
+   - Version  
+   - System Manufacturer  
+   - System Model  
+   - Processor  
+   - Installed RAM  
+   - System Type  
 
-- Windows Version: Windows 10 Pro (64-bit)
-- Processor: Intel Core i5
-- Installed RAM: 8GB
-- System Type: 64-bit Operating System
-
-### Screenshot
-
-[Open System Information]<img width="1487" height="830" alt="Open System Information" src="https://github.com/user-attachments/assets/01dad27f-b2fd-436e-a33b-667228c68d72" />
-
-
-*Figure 1: System Information window displaying operating system version, processor, RAM, and system type.*
-
----
-
-## 2. Internet Disconnection Before
-
-To simulate a troubleshooting scenario, the internet connection was intentionally disconnected.
-
-### Symptoms Observed:
-
-- Unable to access websites
-- Network icon showed "No Internet Access"
-- Browser displayed connection error
-
-### Screenshot
-
-[Internet Disconnection Before]<img width="1127" height="627" alt="Internet Disconnection Before" src="https://github.com/user-attachments/assets/d1f389a1-fb68-4fae-9c95-43353554d91b" />
-
-
-*Figure 2: Network status showing “No Internet Access” before troubleshooting.*
+**Screenshot:**  
+![Open System Information](Open System Information.png)
 
 ---
 
-## 3. Check Physical Adapter Status
+### 2. Check Network Status
 
-The next step was to verify whether the network adapter was enabled and functioning correctly.
+**Option A: Using Settings**
+1. Go to `Start → Settings → Network & Internet`
+2. Check network status (Connected / Not connected).  
 
-### Action Performed:
+**Screenshot:**  
+![Network Status](Internet Disconnection Before.png)
 
-- Opened Network & Internet Settings
-- Checked Ethernet/Wi-Fi adapter status
-- Confirmed whether the adapter was enabled
+**Option B: Using Command Prompt**
+1. Press `Windows + R` → type `cmd` → press Enter  
+2. Type `ipconfig` and press Enter  
+3. Note the following information:  
+   - IPv4 Address  
+   - Subnet Mask  
+   - Default Gateway  
 
-This step ensures the issue is not caused by a disabled or disconnected network adapter.
-
-### Screenshot
-
-![Check Physical Adapter Status]<img width="1120" height="592" alt="Check Physical Adapter Status" src="https://github.com/user-attachments/assets/c1825d20-2bdc-4812-9f8f-3b9e17958ee4" />
-
-
-*Figure 3: Network adapter status showing whether the physical connection is enabled or disabled.*
-
----
-
-## 4. Using Command Prompt
-
-The Command Prompt was used to perform network troubleshooting commands to restore internet connectivity.
-
-### Action Performed:
-
-- Opened Command Prompt as Administrator
-- Executed `ipconfig /release` to drop the current IP address
-- Executed `ipconfig /renew` to request a new IP address from the router
-- Executed `ipconfig /flushdns` to clear the DNS cache
-
-These steps help resolve IP conflicts and DNS issues that can prevent internet access.
-
-### Screenshot
-
-![Using Command Prompt](images/using-command-prompt.png)
-
-*Figure 4: Command Prompt displaying execution of ipconfig commands to troubleshoot network connectivity.*
+**Screenshot:**  
+![Command Prompt Network Info](Using Command Prompt.png)
 
 ---
 
-## 5. Run Network Troubleshooter
+## PART 2: Simulate a Basic Issue (Internet Disconnection)
 
-After using Command Prompt tools, the built-in Windows Network Troubleshooter was executed.
+**Steps to Simulate Internet Disconnection:**
+- Turn off Wi-Fi manually **or**  
+- Disable the network adapter:  
+  1. Press `Windows + R` → type `ncpa.cpl` → press Enter  
+  2. Right-click your Wi-Fi adapter → Click `Disable`  
 
-### Action Performed:
-
-- Opened Network & Internet Settings
-- Selected "Network Troubleshooter"
-- Allowed Windows to detect and fix network problems automatically
-
-This tool diagnoses and resolves common network issues.
-
-### Screenshot
-
-![Run Network Troubleshooter](images/run-network-troubleshooter.png)
-
-*Figure 5: Windows Network Troubleshooter detecting and resolving connectivity issues.*
+**Screenshot:**  
+![Internet Disconnected](Internet Disconnection Before.png)
 
 ---
+
+## PART 3: Troubleshooting Steps
+
+### Step 1: Check Physical / Adapter Status
+1. Ensure Wi-Fi is turned ON.  
+2. Re-enable the network adapter: Right-click → Enable  
+
+**Screenshot:**  
+![Check Physical Adapter Status](Check Physical Adapter Status.png)
+
+---
+
+### Step 2: Run Network Troubleshooter
+1. Go to `Settings → Network & Internet → Advanced Network Settings`  
+2. Click `Network Troubleshooter` and follow prompts.  
+
+**Screenshot:**  
+![Network Troubleshooter Results](Using Command Prompt.png)
+
+---
+
+### Step 3: Use Command Prompt to Fix
+1. Open Command Prompt as Administrator  
+2. Run the following commands:
+
+```bash
+ipconfig /release
+ipconfig /renew
+ipconfig /flushdns
 
 ## Conclusion
 
