@@ -87,15 +87,6 @@ ipconfig /flushdns
 
 ## Issue Resolution
 
-After performing the troubleshooting steps:
-
-- Internet connectivity was successfully restored  
-- System was able to access websites  
-- Network status returned to normal  
-
-**Screenshot:**  
-*(Insert screenshot here showing successful internet connection, e.g., browser loading a website or successful `ping google.com` results.)*
-
 ---
 
 ## Key Learning Outcomes
