@@ -27,8 +27,7 @@ The first step was to verify the system specifications to confirm the operating 
 
 ### Screenshot
 
-![Open System Information]
-(images/open-system-information.png)
+![Open System Information](images/open-system-information.png)
 
 
 *Figure 1: System Information window displaying operating system version, processor, RAM, and system type.*
@@ -47,8 +46,7 @@ To simulate a troubleshooting scenario, the internet connection was intentionall
 
 ### Screenshot
 
-![Internet Disconnection Before]
-(images/internet-disconnection-before.png)
+![Internet Disconnection Before](images/internet-disconnection-before.png)
 
 *Figure 2: Network status showing “No Internet Access” before troubleshooting.*
 
@@ -68,8 +66,7 @@ This step ensures the issue is not caused by a disabled or disconnected network 
 
 ### Screenshot
 
-![Check Physical Adapter Status](
-images/check-physical-adapter-status.png)
+![Check Physical Adapter Status](images/check-physical-adapter-status.png)
 
 *Figure 3: Network adapter status showing whether the physical connection is enabled or disabled.*
 
@@ -85,6 +82,8 @@ Command Prompt was opened as Administrator to perform advanced troubleshooting.
 ipconfig /release
 ipconfig /renew
 ipconfig /flushdns
+
+---
 
 ## Issue Resolution
 
