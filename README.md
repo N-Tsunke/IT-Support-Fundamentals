@@ -35,7 +35,8 @@ This repository documents a step-by-step Windows troubleshooting exercise, inclu
 2. Check network status (Connected / Not connected).  
 
 **Screenshot:**  
-![Network Status](Internet Disconnection Before.png)
+[Network Status]<img width="1434" height="779" alt="Network Status (Connected or Disconnected)" src="https://github.com/user-attachments/assets/1b437a67-1a09-4e29-be5a-ce921c47c7c0" />
+
 
 **Option B: Using Command Prompt**
 1. Press `Windows + R` → type `cmd` → press Enter  
