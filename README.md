@@ -27,7 +27,9 @@ The first step was to verify the system specifications to confirm the operating 
 
 ### Screenshot
 
-![Open System Information](images/open-system-information.png)
+![Open System Information]
+(images/open-system-information.png)
+
 
 *Figure 1: System Information window displaying operating system version, processor, RAM, and system type.*
 
@@ -66,7 +68,8 @@ This step ensures the issue is not caused by a disabled or disconnected network 
 
 ### Screenshot
 
-![Check Physical Adapter Status](images/check-physical-adapter-status.png)
+![Check Physical Adapter Status](
+images/check-physical-adapter-status.png)
 
 *Figure 3: Network adapter status showing whether the physical connection is enabled or disabled.*
 
@@ -82,3 +85,31 @@ Command Prompt was opened as Administrator to perform advanced troubleshooting.
 ipconfig /release
 ipconfig /renew
 ipconfig /flushdns
+
+## Issue Resolution
+
+After performing the troubleshooting steps:
+
+- Internet connectivity was successfully restored  
+- System was able to access websites  
+- Network status returned to normal  
+
+**Screenshot:**  
+*(Insert screenshot here showing successful internet connection, e.g., browser loading a website or successful `ping google.com` results.)*
+
+---
+
+## Key Learning Outcomes
+
+- Learned how to check system specifications  
+- Verified network connectivity using command-line tools  
+- Simulated a network issue  
+- Applied troubleshooting steps to restore connectivity  
+
+---
+
+## Tools Used
+
+- Command Prompt (ipconfig, ping, flushdns)  
+- Windows Network Settings  
+- GitHub (Documentation and reporting)
