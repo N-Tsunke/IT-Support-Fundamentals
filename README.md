@@ -23,7 +23,8 @@ This repository documents a step-by-step Windows troubleshooting exercise, inclu
    - System Type  
 
 **Screenshot:**  
-![Open System Information](Open System Information.png)
+[Open System Information]<img width="1487" height="830" alt="Open System Information" src="https://github.com/user-attachments/assets/33fce64f-7fbd-42ff-ad28-e124ab3d4650" />
+
 
 ---
 
