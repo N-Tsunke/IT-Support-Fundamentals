@@ -51,7 +51,7 @@ This repository documents a step-by-step Windows troubleshooting exercise, inclu
 **Steps to Simulate Internet Disconnection:**
 - Turn off Wi-Fi manually **or**  
 - Disable the network adapter:  
-  2. Right-click your Wi-Fi adapter → Click `Disable`  
+  
 
 **Screenshot:** 
 [Internet Disconnected](<img width="1120" height="592" alt="Check Physical Adapter Status" src="https://github.com/user-attachments/assets/4ecff3f6-a96a-46bb-840d-fa6dbd1ef2c8" />
@@ -62,16 +62,16 @@ This repository documents a step-by-step Windows troubleshooting exercise, inclu
 
 ### Step 1: Check Physical / Adapter Status
 1. Ensure Wi-Fi is turned ON.  
-2. Re-enable the network adapter: Right-click → Enable  
+- Disable the network adapter: 
+
 
 **Screenshot:**  
-![Check Physical Adapter Status](Check Physical Adapter Status.png)
+[Check Physical Adapter Status](Check Physical Adapter Status.png)
 
 ---
 
-### Step 2: Run Network Troubleshooter
-1. Go to `Settings → Network & Internet → Advanced Network Settings`  
-2. Click `Network Troubleshooter` and follow prompts.  
+### Step 2: Run Network Troubleshooter  
+1. Click `Network Troubleshooter` and follow prompts.  
 
 **Screenshot:**  
 ![Network Troubleshooter Results](Using Command Prompt.png)
