@@ -80,16 +80,19 @@ This repository documents a step-by-step Windows troubleshooting exercise, inclu
 **Screenshot:**  
 ![Network Troubleshooter Results](Using Command Prompt.png)
 
+
 ---
 
 ### Step 3: Use Command Prompt to Fix
 1. Open Command Prompt as Administrator  
 2. Run the following commands:
 
-```bash
+
+bash
 ipconfig /release
 ipconfig /renew
 ipconfig /flushdns
+
 
 ## Conclusion
 
@@ -103,6 +106,7 @@ Steps followed:
 4. Used Command Prompt networking tools  
 5. Ran Windows Network Troubleshooter  
 
+
 ## Key Learning Outcomes
 
 - Learned how to check system specifications  
@@ -111,6 +115,7 @@ Steps followed:
 - Applied troubleshooting steps to restore connectivity  
 
 ---
+
 
 ## Author
 
