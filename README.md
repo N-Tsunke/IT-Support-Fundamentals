@@ -76,30 +76,3 @@ This step ensures the issue is not caused by a disabled or disconnected network 
 
 Command Prompt was opened as Administrator to perform advanced troubleshooting.
 
-### Commands Used:
-
-```bash
-ipconfig /release
-ipconfig /renew
-ipconfig /flushdns
-
----
-
-## Issue Resolution
-
----
-
-## Key Learning Outcomes
-
-- Learned how to check system specifications  
-- Verified network connectivity using command-line tools  
-- Simulated a network issue  
-- Applied troubleshooting steps to restore connectivity  
-
----
-
-## Tools Used
-
-- Command Prompt (ipconfig, ping, flushdns)  
-- Windows Network Settings  
-- GitHub (Documentation and reporting)
