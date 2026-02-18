@@ -74,19 +74,14 @@ This repository documents a step-by-step Windows troubleshooting exercise, inclu
 1. follow prompts.  
 
 **Screenshot:**  
-![Network Troubleshooter Results]<img width="981" height="517" alt="Using Command Prompt" src="https://github.com/user-attachments/assets/4dacade2-ee46-460b-9e0e-99dedacb12f4" />
+[Network Troubleshooter Results<<img width="1446" height="797" alt="Run Network Troubleshooter" src="https://github.com/user-attachments/assets/8865fdc5-75ab-4bd9-8b98-ca9cf2036116" />
 
 ---
 
 ### Step 3: Use Command Prompt to Fix
 1. Open Command Prompt as Administrator  
 2. Run the following commands:
-
-
-bash
-ipconfig /release
-ipconfig /renew
-ipconfig /flushdns
+[Command Prompt Results] <img width="981" height="517" alt="Using Command Prompt" src="https://github.com/user-attachments/assets/4dacade2-ee46-460b-9e0e-99dedacb12f4" />
 
 
 ## Conclusion
